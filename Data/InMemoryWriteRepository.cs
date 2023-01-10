@@ -64,23 +64,6 @@ public class InMemoryWriteRepository : IWriteRepository
                 InMemoryDB.HashtagsCount.TryAdd(request.Hashtag, request.TweetIds.Count, add);
             }
 
-            /* InMemoryDB.HashtagsCount.TryUpdate(request.Hashtag, value2, value2 + request.TweetIds.Count);
-
-
-
-
-             InMemoryDB.HashtagsCount.TryGetValue(request.Hashtag, out var value);
-             value += request.TweetIds.Count;
-
-             InMemoryDB.HashtagsCount.AddOrUpdate(request.Hashtag, value, (key, current) => value);
-
-
-             InMemoryDB.HashTagTweets.TryGetValue(request.Hashtag, out var tweetIds);
-
-             (tweetIds ??= new List<string>()).AddRange(request.TweetIds);
-
-             InMemoryDB.HashTagTweets.AddOrUpdate(request.Hashtag, tweetIds, (key, current) => tweetIds);*/
-
             Func<List<string>, List<string>, List<string>> combineLists
             = (List<string> a, List<string> b) =>
             {
@@ -105,8 +88,6 @@ public class InMemoryWriteRepository : IWriteRepository
             {
                 InMemoryDB.HashTagTweets.TryAdd(request.Hashtag, request.TweetIds, combineLists);
             }
-
-
         }); 
     }
      
