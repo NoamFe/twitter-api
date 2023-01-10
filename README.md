@@ -15,5 +15,6 @@
 - SOLID - I have used most or all of the principles. I think the ability to just add a new handler (just like I added the language handler) to persist more data is a good example of open for extension and single responsability
 - exceptions - will bubble up on the controllers or handlers. there is a lot I can improve but again I have spent a lot of time on other tings
 - tests - added some, but again lack of time
+- you can use swagger to run the APIs and there is also console output that will log the poller
  
  
