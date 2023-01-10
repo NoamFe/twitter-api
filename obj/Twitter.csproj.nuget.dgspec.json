@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\code\\Twitter\\Twitter\\Twitter.csproj": {}
+  },
+  "projects": {
+    "C:\\code\\Twitter\\Twitter\\Twitter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\Twitter\\Twitter\\Twitter.csproj",
+        "projectName": "Twitter",
+        "projectPath": "C:\\code\\Twitter\\Twitter\\Twitter.csproj",
+        "packagesPath": "C:\\Users\\nf199\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\Twitter\\Twitter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nf199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "SlimMessageBus": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "SlimMessageBus.Host.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "SlimMessageBus.Host.DependencyResolver": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "SlimMessageBus.Host.FluentValidation.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "SlimMessageBus.Host.Memory": {
+              "target": "Package",
+              "version": "[1.22.1, )"
+            },
+            "SlimMessageBus.Host.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
